@@ -12,10 +12,10 @@ from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
-
 from reviews.models import Review
 from titles.models import Category, Genre, Title
 from users.models import User
+
 from .filters import TitleFilter
 from .mixins import CreateListDestroyMixin
 from .permissions import (IsAdminModeratorOwnerOrReadOnly, IsAdminOrReadOnly,

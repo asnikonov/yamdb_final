@@ -3,9 +3,9 @@ import os
 
 from django.conf import settings
 from django.core.management.base import BaseCommand
+from reviews.models import Comment, Review
+from titles.models import Category, Genre, Title
 from users.models import User
-from titles.models import Genre, Title, Category
-from reviews.models import Review, Comment
 
 
 class Command(BaseCommand):
