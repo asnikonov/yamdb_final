@@ -28,7 +28,7 @@ jobs:
         # запуск проверки проекта по flake8
         python -m flake8
         # запустить написанные разработчиком тесты
-        python manage.py pytest
+        pytest
         # Тут ваши задачи тестирования и сборки образа
 
   build_and_push_to_docker_hub:
