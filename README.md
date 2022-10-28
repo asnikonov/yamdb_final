@@ -1,5 +1,4 @@
-# yamdb_final
-https://github.com/asnikonov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+![example workflow](https://github.com/asnikonov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 Ссылка на развернутый проект:
 http://62.84.126.220/admin
